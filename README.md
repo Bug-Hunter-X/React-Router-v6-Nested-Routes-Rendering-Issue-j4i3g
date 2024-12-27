@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using nested routes in React Router v6.  The problem arises when a nested route is accessed directly, causing the parent route's component to not render. The solution showcases how to fix this using the `useLocation` hook to conditionally render components based on the current route.
